@@ -61,11 +61,13 @@ flowchart TD
 terraform-ai-review/
 ├── .github/
 │   ├── workflows/
-│   │   ├── tf-ai-review.yml   # CI: PRレビューワークフロー
-│   │   └── tf-cd.yml          # CD: applyワークフロー
+│   │   ├── tf-ai-review.yml   # CI: PRレビューワークフロー（未実装）
+│   │   └── tf-cd.yml          # CD: applyワークフロー（未実装）
 │   └── scripts/
-│       └── ai_review.py       # Claude API呼び出し・PRコメント投稿
-├── main.tf                    # サンプルTerraformコード
+│       └── ai_review.py       # Claude API呼び出し・PRコメント投稿（未実装）
+├── terraform/
+│   ├── main.tf                # サンプルTerraformコード
+│   └── variables.tf           # Terraform変数定義
 └── README.md
 ```
 
